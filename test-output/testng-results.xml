@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T18:19:26 IST" name="Suite" finished-at="2024-07-15T18:21:20 IST" duration-ms="113741">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T18:19:26 IST" name="TestNG_Report1" finished-at="2024-07-15T18:21:20 IST" duration-ms="113741">
+      <class name="com.Mohs10.Reports.New_PDF_Report">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:19:26 IST" name="loadConfig" finished-at="2024-07-15T18:19:26 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:20:13 IST" name="browserSetup" finished-at="2024-07-15T18:20:17 IST" duration-ms="3801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:20:17 IST" name="methodName" finished-at="2024-07-15T18:20:17 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Mohs10.Reports.New_PDF_Report.PDFreports(org.testng.ITestContext) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="PDFreports(org.testng.ITestContext)[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:20:17 IST" name="PDFreports" finished-at="2024-07-15T18:21:20 IST" duration-ms="63139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52d6cd34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PDFreports -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:21:20 IST" name="tearDown" finished-at="2024-07-15T18:21:20 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:21:20 IST" name="afterClass" finished-at="2024-07-15T18:21:20 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Mohs10.Reports.New_PDF_Report@6cdba6dc]" started-at="2024-07-15T18:21:20 IST" name="afterSuite" finished-at="2024-07-15T18:21:21 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Mohs10.Reports.New_PDF_Report -->
+      <class name="com.Mohs10.TestScripts.Insta_Safe">
+        <test-method signature="testautoitscript()[pri:0, instance:com.Mohs10.TestScripts.Insta_Safe@1c39680d]" started-at="2024-07-15T18:19:27 IST" name="testautoitscript" finished-at="2024-07-15T18:20:13 IST" duration-ms="46299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testautoitscript -->
+      </class> <!-- com.Mohs10.TestScripts.Insta_Safe -->
+    </test> <!-- TestNG_Report1 -->
+  </suite> <!-- Suite -->
+</testng-results>

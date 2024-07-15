@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG_Report1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Mohs10.Reports.New_PDF_Report">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="loadConfig"/>
+          <include name="methodName"/>
+          <include name="afterSuite"/>
+          <include name="PDFreports"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Mohs10.Reports.New_PDF_Report -->
+    </classes>
+  </test> <!-- TestNG_Report1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
